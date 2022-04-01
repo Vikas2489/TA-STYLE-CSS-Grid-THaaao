@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Stylesheet/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@300;400;500;600;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>Assignment-2 CSS Grid</title>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="flex justify-between nav-bar align-center">
+            <a class="logo" href="#">Stimulus</a>
+            <label for="toggle" class="bars"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="toggle" class="checkbox">
+            <ul class="flex">
+                <li> <a class="home" href="#">HOME</a> </li>
+                <li><a href="#">ABOUT ME</a> </li>
+                <li><a href="#">TESTIMONIALS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">EXPERIENCES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container-grid section-of-my-website">
+            <figure class="font-0">
+                <img src="./media/home-img.jpg" width="100%" alt="home-img">
+            </figure>
+            <div class="my-website">
+                <p>Welcome To My Website</p>
+                <h1>Hello I'm <span>Stimulus</span> Currently Based <br> in New York city.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia non a est repudiandae hic eaque architecto, aliquid corrupti sequi maxime ullam. Vero quibusdam dolorum laudantium id corporis nesciunt, maxime ipsam!</p>
+                <button class="btn-primary">Get Started</button>
+            </div>
+        </section>
+        <section class="container-grid donec-section">
+            <article class="donec-article">
+                <h2>Donec Peterson</h2>
+                <p class="yellow-para">lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere iupti possimus reiciendis <br> commodi. Placeat dicta aperiam rem et totam, quas natus Lorem ipsum non asperiores reprehenderit exercitationem ducimus consequuntur ex corrupti
+                    possimus reiciendis <br> commodi. Placeat dicta aperiam rem et totam, quas natus.</p>
+            </article>
+            <img src="./media/about-img.jpg" class="about-img" width="100%" height="100%" alt="about-img">
+            <div class="skill-column">
+                <h3>My Skills</h3>
+                <span class="inline-block">Photoshop, HTML CSS JS, Web Design</span>
+                <div class="flex justify-between each-skill">
+                    <h5>FrontEnd Design</h5> <span> 90%</span>
+                </div>
+                <div class="flex justify-between each-skill">
+                    <h5>Backend Processing</h5> <span> 80%</span>
+                </div>
+                <div class="flex justify-between each-skill">
+                    <h5>HTML and CSS</h5> <span> 60%</span>
+                </div>
+            </div>
+        </section>
+        <section class="container-grid">
+            <div class="interface-design">
+                <i class="fas fa-desktop"></i>
+                <h3>Interface Design</h3>
+                <p class="text-center">Lorem ipsum dolor sit, amet consectetur, ex vitae eaque voluptatibus.</p>
+            </div>
+            <div class="interface-design media">
+                <i class="fas fa-fighter-jet"></i>
+                <h3>Media Strategy</h3>
+                <p class="text-center">Lorem ipsum dolor sit, amet consectetur, ex vitae eaque voluptatibus.</p>
+            </div>
+            <div class="interface-design mobile-app">
+                <i class="fas fa-calculator"></i>
+                <h3>Mobile App</h3>
+                <p class="text-center">Lorem ipsum dolor sit, amet consectetur, ex vitae eaque voluptatibus.</p>
+            </div>
+            <div class="interface-design coding">
+                <i class="fab fa-java"></i>
+                <h3>Coding</h3>
+                <p class="text-center">Lorem ipsum dolor sit, amet consectetur, ex vitae eaque voluptatibus.</p>
+            </div>
+        </section>
+        <section class="container-grid my-experiences">
+            <img src="./media/experience-img.jpg" class="experience-img" alt="experience-img">
+            <div class=" orange-bg experience">
+                <h3>My Experiences</h3>
+                <span class="inline-block"> Previous companies and tasks</span>
+                <div class="list-of-experiences flex align-center">
+                    <div><i class="fas fa-laptop"></i></div>
+                    <div>
+                        <h4>Graphic Designer <span> 2014 jul - 2015 jul </span> </h4>
+                        <p>Lorem, ipsum dolor sit agni reprehenderit, minima eum alla quam laudantium.</p>
+                    </div>
+                </div>
+                <div class="list-of-experiences flex align-center">
+                    <div><i class="fas fa-laptop"></i></div>
+                    <div>
+                        <h4>Graphic Designer <span> 2014 jul - 2015 jul </span> </h4>
+                        <p>Lorem, ipsum dolor sit agni reprehenderit, minima eum alla quam laudantium.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-grid my-experiences">
+            <div class="experience">
+                <h3>My Education</h3>
+                <span class="inline-block"> Previous companies and tasks</span>
+                <div class="list-of-experiences flex align-center">
+                    <div><i class="fas fa-laptop"></i></div>
+                    <div>
+                        <h4>Master in Design <span> 2014 jul - 2015 jul </span> </h4>
+                        <p>Lorem, ipsum dolor sit agni reprehenderit, minima eum alla quam laudantium.</p>
+                    </div>
+                </div>
+                <div class="list-of-experiences flex align-center">
+                    <div><i class="fas fa-laptop"></i></div>
+                    <div>
+                        <h4>Bachelor of Arts<span> 2014 jul - 2015 jul </span> </h4>
+                        <p>Lorem, ipsum dolor sit agni reprehenderit, minima eum alla quam laudantium.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./media/education-img.jpg" class="experience-img" alt="experience-img">
+        </section>
+        <section class="container-grid orange-bg contact-section">
+            <div class="form">
+                <h3>Say Hello</h3>
+                <p>Lobcaecati sed, tempora poris quidem facilis expedita.</p>
+                <input type="text" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message" cols="30" rows="10" placeholder="Write your message..."></textarea>
+                <button class="btn-secondary" type="button">Send</button>
+            </div>
+            <img src="./media/contact-img.jpg" class="person-img" height="100%" alt="person-img">
+            <div class="contact">
+                <h4>Visit my office</h4>
+                <p>456 New Street 220000, New York City, USA</p>
+                <h6>Contact</h6>
+                <div class="details"><i class="fas fa-phone"></i> <span> 8010029489</span> </div>
+                <div class="details"><i class="far fa-envelope"></i> <span> Homosapien2489@gmail.com</span> </div>
+                <div class="details"><i class="fas fa-globe-americas"></i> <span> company.io</span></div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1648747883171!5m2!1sen!2sin"
+                width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer class="text-center">
+
+        <small>Copyright  © 2016  Company | Design: <span class="yellow"> Templato</span></small>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <i class="fab fa-linkedin-in"></i>
+    </footer>
+</body>
+
+</html>

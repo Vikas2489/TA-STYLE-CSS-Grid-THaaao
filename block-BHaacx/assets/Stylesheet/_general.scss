@@ -1,0 +1,65 @@
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.font-0 {
+    font-size: 0;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+%btn {
+    padding: 0.7rem 1.4rem;
+    border-radius: 1.4rem;
+}
+
+.btn-primary {
+    @extend %btn;
+    color: #4D504F;
+    border: 3px solid #4D504F;
+    background-color: transparent;
+    font-weight: 550;
+}
+
+.btn-secondary {
+    @extend %btn;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    border: none;
+}
+
+.padding {
+    padding: 1.3rem;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}

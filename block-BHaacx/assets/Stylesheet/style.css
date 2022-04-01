@@ -1,0 +1,570 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.font-0 {
+  font-size: 0;
+}
+
+.flex-direction {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.btn-secondary, .btn-primary {
+  padding: 0.7rem 1.4rem;
+  border-radius: 1.4rem;
+}
+
+.btn-primary {
+  color: #4D504F;
+  border: 3px solid #4D504F;
+  background-color: transparent;
+  font-weight: 550;
+}
+
+.btn-secondary {
+  background-color: white;
+  padding: 0.5rem 2.5rem;
+  border: none;
+}
+
+.padding {
+  padding: 1.3rem;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  position: relative;
+}
+
+header {
+  position: absolute;
+  width: 95%;
+}
+
+.nav-bar {
+  padding: 1rem 0;
+}
+.nav-bar .bars,
+.nav-bar .checkbox {
+  display: none;
+}
+.nav-bar li {
+  margin-left: 1.9rem;
+  font-size: 0.89rem;
+}
+.nav-bar li a {
+  color: #9F9692;
+}
+.nav-bar li .home {
+  color: #F5D6A6;
+}
+.nav-bar .logo {
+  font-size: 1.77rem;
+  font-weight: 550;
+  color: #474544;
+}
+
+.section-of-my-website {
+  height: 100vh;
+}
+.section-of-my-website figure {
+  grid-column: span 2;
+}
+.section-of-my-website img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section-of-my-website .my-website {
+  grid-column: span 2;
+  background-color: #F5E2D6;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.4rem;
+}
+.section-of-my-website .my-website h1 {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0.8rem 0;
+  color: #66625E;
+}
+.section-of-my-website .my-website h1 span {
+  font-weight: 500;
+}
+.section-of-my-website .my-website p {
+  color: #C6BAB4;
+  font-size: 0.88rem;
+  line-height: 1.5rem;
+}
+.section-of-my-website .my-website p:last-of-type {
+  margin: 1rem 0;
+}
+.section-of-my-website .my-website button {
+  place-self: start;
+}
+
+.donec-article {
+  padding: 2rem;
+  grid-column: span 2;
+}
+.donec-article h2 {
+  font-size: 1.5rem;
+  font-weight: 250;
+}
+.donec-article .yellow-para {
+  color: #F8E6C8;
+}
+.donec-article p {
+  color: #C6BAB4;
+  font-size: 0.89rem;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+}
+
+.donec-section .about-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.donec-section .skill-column {
+  padding: 2rem;
+  background-color: #ECAE4F;
+}
+.donec-section .skill-column h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 250;
+}
+.donec-section .skill-column .inline-block {
+  color: white;
+  font-size: 0.88rem;
+  font-weight: 200;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.donec-section .skill-column .each-skill {
+  margin: 0.99rem 0;
+}
+.donec-section .skill-column .each-skill h5 {
+  border-bottom: 2px solid black;
+  width: 90%;
+  padding-bottom: 10px;
+  font-size: 0.88rem;
+}
+.donec-section .skill-column .each-skill span {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.interface-design {
+  display: grid;
+  place-items: center;
+  background-color: #ECAE4F;
+  padding: 2rem;
+  color: white;
+}
+.interface-design i {
+  font-size: 2.4rem;
+}
+.interface-design h3 {
+  font-size: 1.7rem;
+  font-weight: 200;
+  margin: 1.4rem;
+}
+.interface-design p {
+  font-weight: 220;
+  line-height: 1.5;
+  font-size: 0.78rem;
+}
+
+.media {
+  background-color: #EC643B;
+}
+
+.mobile-app {
+  background-color: black;
+}
+
+.coding {
+  background-color: white;
+  color: black;
+}
+
+.orange-bg {
+  background-color: #EC643B;
+}
+
+.my-experiences {
+  grid-template-rows: repeat(1, 350px);
+}
+.my-experiences .experience-img {
+  grid-column: span 2;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.my-experiences .experience {
+  padding: 2rem;
+  background-color: #ECAE4F;
+  grid-column: span 2;
+  color: white;
+}
+.my-experiences .experience h3 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+.my-experiences .experience h4 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-bottom: 0.77rem;
+}
+.my-experiences .experience h4 span {
+  color: #8D3D36;
+  font-size: 0.78rem;
+  font-weight: bold;
+}
+.my-experiences .experience .inline-block {
+  font-size: 0.88rem;
+  margin: 1.3rem 0;
+}
+.my-experiences .experience .fa-laptop {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-right: 0.88rem;
+}
+.my-experiences .list-of-experiences {
+  margin: 2rem 0;
+}
+
+.my-experiences .orange-bg {
+  background-color: #EC643B;
+}
+
+.orange-bg {
+  background-color: #EC643B;
+}
+
+.contact-section .form {
+  grid-column: span 2;
+}
+.contact-section .person-img {
+  grid-column: span 1;
+  width: 100%;
+}
+.contact-section .contact {
+  background-color: black;
+  grid-column: span 1;
+  color: white;
+}
+
+.contact-section input,
+.contact-section textarea {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ECAE4F;
+  background-color: transparent;
+  color: white;
+  outline: transparent;
+  margin: 1rem 0;
+  width: 100%;
+}
+.contact-section ::-moz-placeholder {
+  color: white;
+}
+.contact-section :-ms-input-placeholder {
+  color: white;
+}
+.contact-section ::placeholder {
+  color: white;
+}
+.contact-section .form {
+  color: white;
+  padding: 2rem;
+}
+.contact-section .form h3 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+.contact-section .form p {
+  font-size: 0.88rem;
+  font-weight: 200;
+  margin: 1rem 0;
+}
+.contact-section .person-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.contact-section .contact {
+  padding: 2rem;
+}
+.contact-section .contact h4 {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+.contact-section .contact p {
+  color: #3B3B3B;
+  font-size: 0.89rem;
+  margin: 1rem 0;
+}
+.contact-section .contact h6 {
+  font-size: 1.22rem;
+  margin-bottom: 0.8rem;
+  font-weight: 150;
+}
+.contact-section .contact i {
+  color: #808080;
+  margin-right: 0.78rem;
+}
+.contact-section .contact .details {
+  margin: 1rem 0;
+}
+.contact-section .contact .details span {
+  color: #3B3B3B;
+}
+.contact-section iframe {
+  grid-column: span 4;
+  width: 80%;
+  place-self: center;
+  padding: 2rem 0;
+}
+
+footer {
+  color: #9B9A9B;
+  padding: 5rem 0;
+}
+footer small {
+  margin: 1rem;
+  display: block;
+}
+footer small .yellow {
+  color: #ECAE4F;
+}
+footer i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+
+  header {
+    background-color: white;
+  }
+
+  .nav-bar .bars {
+    display: inline-block;
+    z-index: 9999999;
+  }
+
+  .checkbox ~ .flex {
+    display: none;
+  }
+
+  .checkbox:checked ~ .flex {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 999999;
+    top: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: #ECAE4F;
+    right: 0.88rem;
+  }
+  .checkbox:checked ~ .flex li {
+    margin: 1rem 0;
+  }
+
+  .container-grid {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .donec-article {
+    grid-column: inherit;
+  }
+
+  .orange-bg {
+    grid-template-columns: repeat(1, 100%);
+  }
+  .orange-bg .form {
+    padding: 2rem;
+  }
+  .orange-bg .contact {
+    grid-column: span 2;
+  }
+}/*# sourceMappingURL=style.css.map */

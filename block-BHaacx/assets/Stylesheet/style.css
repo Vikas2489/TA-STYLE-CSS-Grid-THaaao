@@ -209,7 +209,7 @@ body {
 
 header {
   position: absolute;
-  width: 95%;
+  width: 100%;
 }
 
 .nav-bar {
@@ -249,7 +249,7 @@ header {
 }
 .section-of-my-website .my-website {
   grid-column: span 2;
-  background-color: #F5E2D6;
+  background-color: #f5e2d6;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -285,7 +285,7 @@ header {
   font-weight: 250;
 }
 .donec-article .yellow-para {
-  color: #F8E6C8;
+  color: #f8e6c8;
 }
 .donec-article p {
   color: #C6BAB4;
@@ -300,7 +300,7 @@ header {
 }
 .donec-section .skill-column {
   padding: 2rem;
-  background-color: #ECAE4F;
+  background-color: #ecae4f;
 }
 .donec-section .skill-column h3 {
   color: white;
@@ -331,7 +331,7 @@ header {
 .interface-design {
   display: grid;
   place-items: center;
-  background-color: #ECAE4F;
+  background-color: #ecae4f;
   padding: 2rem;
   color: white;
 }
@@ -378,7 +378,7 @@ header {
 }
 .my-experiences .experience {
   padding: 2rem;
-  background-color: #ECAE4F;
+  background-color: #ecae4f;
   grid-column: span 2;
   color: white;
 }
@@ -392,7 +392,7 @@ header {
   margin-bottom: 0.77rem;
 }
 .my-experiences .experience h4 span {
-  color: #8D3D36;
+  color: #8d3d36;
   font-size: 0.78rem;
   font-weight: bold;
 }
@@ -434,7 +434,7 @@ header {
 .contact-section textarea {
   display: block;
   border: none;
-  border-bottom: 1px solid #ECAE4F;
+  border-bottom: 1px solid #ecae4f;
   background-color: transparent;
   color: white;
   outline: transparent;
@@ -475,7 +475,7 @@ header {
   font-weight: 200;
 }
 .contact-section .contact p {
-  color: #3B3B3B;
+  color: #3b3b3b;
   font-size: 0.89rem;
   margin: 1rem 0;
 }
@@ -492,7 +492,7 @@ header {
   margin: 1rem 0;
 }
 .contact-section .contact .details span {
-  color: #3B3B3B;
+  color: #3b3b3b;
 }
 .contact-section iframe {
   grid-column: span 4;
@@ -502,7 +502,7 @@ header {
 }
 
 footer {
-  color: #9B9A9B;
+  color: #9b9a9b;
   padding: 5rem 0;
 }
 footer small {
@@ -510,7 +510,7 @@ footer small {
   display: block;
 }
 footer small .yellow {
-  color: #ECAE4F;
+  color: #ecae4f;
 }
 footer i {
   font-size: 1.2rem;
@@ -521,20 +521,16 @@ footer i {
   html {
     font-size: 13px;
   }
-
   header {
     background-color: white;
   }
-
   .nav-bar .bars {
     display: inline-block;
     z-index: 9999999;
   }
-
   .checkbox ~ .flex {
     display: none;
   }
-
   .checkbox:checked ~ .flex {
     display: flex;
     flex-direction: column;
@@ -543,21 +539,18 @@ footer i {
     top: 1rem;
     padding: 1.5rem;
     border-radius: 1rem;
-    background-color: #ECAE4F;
+    background-color: #ecae4f;
     right: 0.88rem;
   }
   .checkbox:checked ~ .flex li {
     margin: 1rem 0;
   }
-
   .container-grid {
     grid-template-columns: repeat(1, 100%);
   }
-
   .donec-article {
     grid-column: inherit;
   }
-
   .orange-bg {
     grid-template-columns: repeat(1, 100%);
   }

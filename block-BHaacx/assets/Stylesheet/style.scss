@@ -1,7 +1,7 @@
-@import "reset";
-@import "vars";
-@import "general";
-@import "css-grid";
+@import 'reset';
+@import 'vars';
+@import 'general';
+@import 'css-grid';
 body {
     font-family: 'Archivo', sans-serif;
     position: relative;
@@ -9,7 +9,7 @@ body {
 
 header {
     position: absolute;
-    width: 95%;
+    width: 100%;
 }
 
 .nav-bar {
@@ -47,7 +47,7 @@ header {
     }
     .my-website {
         grid-column: span 2;
-        background-color: #F5E2D6;
+        background-color: #f5e2d6;
         display: inline-flex;
         flex-direction: column;
         justify-content: center;
@@ -83,7 +83,7 @@ header {
         font-weight: 250;
     }
     .yellow-para {
-        color: #F8E6C8;
+        color: #f8e6c8;
     }
     p {
         color: $all-para;
@@ -99,7 +99,7 @@ header {
     }
     .skill-column {
         padding: 2rem;
-        background-color: #ECAE4F;
+        background-color: #ecae4f;
         h3 {
             color: white;
             font-size: 2rem;
@@ -131,7 +131,7 @@ header {
 .interface-design {
     display: grid;
     place-items: center;
-    background-color: #ECAE4F;
+    background-color: #ecae4f;
     padding: 2rem;
     color: white;
     i {
@@ -167,7 +167,7 @@ header {
 }
 
 .my-experiences {
-    grid-template-rows: repeat( 1, 350px);
+    grid-template-rows: repeat(1, 350px);
     .experience-img {
         grid-column: span 2;
         object-fit: cover;
@@ -176,7 +176,7 @@ header {
     }
     .experience {
         padding: 2rem;
-        background-color: #ECAE4F;
+        background-color: #ecae4f;
         grid-column: span 2;
         color: white;
         h3 {
@@ -188,7 +188,7 @@ header {
             font-weight: 200;
             margin-bottom: 0.77rem;
             span {
-                color: #8D3D36;
+                color: #8d3d36;
                 font-size: 0.78rem;
                 font-weight: bold;
             }
@@ -238,7 +238,7 @@ header {
     textarea {
         display: block;
         border: none;
-        border-bottom: 1px solid #ECAE4F;
+        border-bottom: 1px solid #ecae4f;
         background-color: transparent;
         color: white;
         outline: transparent;
@@ -271,7 +271,7 @@ header {
             font-weight: 200;
         }
         p {
-            color: #3B3B3B;
+            color: #3b3b3b;
             font-size: 0.89rem;
             margin: 1rem 0;
         }
@@ -287,7 +287,7 @@ header {
         .details {
             margin: 1rem 0;
             span {
-                color: #3B3B3B;
+                color: #3b3b3b;
             }
         }
     }
@@ -300,13 +300,13 @@ header {
 }
 
 footer {
-    color: #9B9A9B;
+    color: #9b9a9b;
     padding: 5rem 0;
     small {
         margin: 1rem;
         display: block;
         .yellow {
-            color: #ECAE4F;
+            color: #ecae4f;
         }
     }
     i {
@@ -337,7 +337,7 @@ footer {
         top: 1rem;
         padding: 1.5rem;
         border-radius: 1rem;
-        background-color: #ECAE4F;
+        background-color: #ecae4f;
         right: 0.88rem;
         li {
             margin: 1rem 0;
